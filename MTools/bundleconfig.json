@@ -2,14 +2,14 @@
     {
       "outputFileName": "wwwroot/css/site.min.css",
       "inputFiles": [
-        "wwwroot/css/site.css",
-        "wwwroot/css/bootstrap-custom.css"
+        "Styles/css/site.css",
+        "Styles/css/bootstrap-custom.css"
       ]
     },
     {
       "outputFileName": "wwwroot/js/site.min.js",
       "inputFiles": [
-        "wwwroot/js/site.js"
+        "Scripts/js/site.js"
       ],
       "minify": {
         "enabled": true,
