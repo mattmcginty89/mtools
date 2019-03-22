@@ -1,0 +1,9 @@
+{
+  "projects" : [
+    "MTools",
+    "MTools.Tests"
+  ],
+  "sdk": {
+    "version": "2.2.102"
+  }
+}

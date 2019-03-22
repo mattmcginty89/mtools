@@ -1,0 +1,21 @@
+@model AlphabetizeModel
+
+@{
+    ViewData["Title"] = "Alphabetize";
+}
+
+<form asp-controller="Alphabetize" asp-action="Alphabetizer" method="post">
+    <div class="text-center">
+        <hr/>
+        <input type="submit" value="Alphabetize">
+        <hr/>
+        <div style="float: left;">
+            <h3 class="display-4">Input</h3>    
+            <textarea id="input-text" asp-for="@Model.InputText" style="height: 500px; width: 500px; "></textarea>
+        </div>
+        <div style="float: right;">
+            <h3 class="display-4">Output</h3>    
+            <textarea id="output-text" style="height: 500px; width: 500px;">@Model.OutputText</textarea>
+        </div>
+    </div>
+</form>
