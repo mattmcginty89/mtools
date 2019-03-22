@@ -11,11 +11,11 @@
         <hr/>
         <div style="float: left;">
             <h3 class="display-4">Input</h3>    
-            <textarea id="input-text" asp-for="@Model.InputText" style="height: 500px; width: 500px; "></textarea>
+            <textarea id="input-text" asp-for="@Model.InputText" style="height: 500px; width: 500px; resize: none;"></textarea>
         </div>
         <div style="float: right;">
             <h3 class="display-4">Output</h3>    
-            <textarea id="output-text" style="height: 500px; width: 500px;">@Model.OutputText</textarea>
+            <textarea id="output-text" style="height: 500px; width: 500px; resize: none;">@Model.OutputText</textarea>
         </div>
     </div>
 </form>
